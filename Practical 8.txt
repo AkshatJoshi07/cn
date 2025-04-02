@@ -1,0 +1,38 @@
+Practical 8
+Implementation of SUBNETTING
+Subnetting is the process of dividing a single IP network into multiple smaller, logical networks called subnets. This is done by borrowing bits from the host portion of an IP address and using them as network bits
+
+Steps to Implement Subnetting in Cisco Packet Tracer
+1. Plan the Network
+Choose an IP Address Range (e.g., 192.168.1.0/24).
+
+Define subnet masks based on required hosts per subnet.
+
+2. Configure IP Addresses on PCs
+Assign subnetted IP addresses manually to each PC:
+PC1: 192.168.1.1 255.255.255.192  
+PC2: 192.168.1.2 255.255.255.192  
+PC3: 192.168.1.65 255.255.255.192  
+3. Configure IP Addresses on Routers
+ 1 Enter CLI Mode
+enable  
+configure terminal  
+ 2 Assign IPs to Router Interfaces
+ 
+interface FastEthernet 0/0  
+ip address 192.168.1.1 255.255.255.192  
+no shutdown  
+exit  
+
+interface FastEthernet 0/1  
+ip address 192.168.1.65 255.255.255.192  
+no shutdown  
+exit  
+4. Configure Routing (If Needed)
+For communication between subnets, use Static or Dynamic Routing:
+ip route 192.168.1.0 255.255.255.192 192.168.1.1  
+ip route 192.168.1.64 255.255.255.192 192.168.1.65  
+5. Test Connectivity
+Use ping to check if devices in the same subnet communicate.
+
+Ping across subnets (if routing is configured).

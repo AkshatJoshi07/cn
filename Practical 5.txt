@@ -1,0 +1,42 @@
+Practical 5
+Virtual LAN give steps of implementation in cisco packet
+->A Virtual Local Area Network (VLAN) is essentially a way to create multiple logical networks within a single physical network
+->VLANs are used to separate different departments or groups within an organization.
+how to prefome :-
+1) Add Devices:
+
+Drag and drop switches and end devices (PCs) onto the workspace.
+Connect Devices:
+
+Use appropriate cables (e.g., FastEthernet straight-through) to connect PCs to the switches.
+2) Configure VLANs on the Switch:
+
+Click on a switch to access its CLI (Command-Line Interface).
+Enter privileged EXEC mode: enable
+Enter global configuration mode: configure terminal
+Create VLANs: vlan <VLAN ID> (e.g., vlan 10, vlan 20)
+Name VLANs (optional but recommended): name <VLAN name> (e.g., name Sales, name Marketing)
+Exit VLAN configuration mode: exit
+3) Assign Ports to VLANs:
+
+Enter interface configuration mode for each port: interface <interface ID> (e.g., interface FastEthernet0/1)
+Set the port to access mode: switchport mode access
+Assign the port to a VLAN: switchport access vlan <VLAN ID> (e.g., switchport access vlan 10)
+Repeat for all required interfaces.
+Exit interface configuration mode: exit
+4) Configure Trunking (if needed):
+
+If you have more than one switch, you will need to configure a trunk link between the switches.
+Enter interface configuration mode for the interface connecting the switches.
+Set the port to trunk mode: switchport mode trunk
+Set the allowed vlans on the trunk port: switchport trunk allowed vlan <vlan ID list> example: switchport trunk allowed vlan 10,20
+Repeat for the other side of the trunk link.
+5) Configure IP Addresses on PCs:
+
+Click on each PC and go to the "Desktop" tab, then "IP Configuration."
+Assign IP addresses within the same subnet for PCs in the same VLAN.
+Ensure that the PCs in different VLANs are assigned to different subnets.
+6) Test Connectivity:
+
+Use the ping command from a PC to test connectivity with other PCs in the same VLAN and, if configured, other VLANs through a router or layer 3 switch.
+Verify that PCs in different VLANs cannot ping each other, unless a router or layer 3 switch is used for intervlan routing.

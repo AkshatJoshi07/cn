@@ -1,0 +1,49 @@
+Practical 9
+Routing at Network Layer
+Routing at Network Layer (Cisco Packet Tracer Steps)
+Routing is the process of forwarding data packets between different networks using routers. It occurs at the Network Layer (Layer 3) of the OSI Model.
+
+Steps to Implement Routing in Cisco Packet Tracer
+1. Set Up Network Devices
+Add two or more PCs, two or more routers, and switches.
+
+Connect PCs to switches (use straight-through cables).
+
+Connect routers to switches (use straight-through or cross-over cables).
+
+2. Assign IP Addresses
+Assign IP addresses to PCs (e.g., 192.168.1.2/24 and 192.168.2.2/24).
+
+Configure router interfaces with IPs in the correct subnets.
+
+3. Configure Router Interfaces
+Enter CLI mode:
+enable  
+configure terminal  
+Assign IPs to router interfaces:
+interface FastEthernet 0/0  
+ip address 192.168.1.1 255.255.255.0  
+no shutdown  
+exit  
+
+interface FastEthernet 0/1  
+ip address 192.168.2.1 255.255.255.0  
+no shutdown  
+exit  
+4. Configure Routing (Static or Dynamic)
+➡ Static Routing (Manually specify paths):
+ip route 192.168.2.0 255.255.255.0 192.168.1.1  
+ip route 192.168.1.0 255.255.255.0 192.168.2.1  
+➡ Dynamic Routing (Use routing protocols like RIP, OSPF, or EIGRP):
+For RIP:
+router rip  
+version 2  
+network 192.168.1.0  
+network 192.168.2.0  
+no auto-summary  
+exit  
+5. Test Connectivity
+Use the ping command between PCs in different networks.
+
+Use tracert to check the routing path.
+
