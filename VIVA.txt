@@ -1,0 +1,56 @@
+1) NETWORK DEVICE:-
+Hub – A basic device that broadcasts data to all connected devices without filtering.
+
+Switch – A network device that forwards data only to the intended recipient using MAC addresses.
+
+Router – Connects multiple networks and directs data packets based on IP addresses.
+
+Bridge – Connects two or more network segments to function as a single network.
+
+Modem – Converts digital data into analog signals (and vice versa) for internet access.
+
+Gateway – Acts as a protocol converter between different network architectures.
+
+Access Point (AP) – Provides wireless connectivity to extend a wired network.
+
+Firewall – A security device that monitors and filters network traffic to prevent threats.
+
+2) TCP/IP in Computer Networks
+TCP/IP (Transmission Control Protocol/Internet Protocol) is a suite of communication protocols used for transmitting data over the internet and other networks. It defines how data is sent, addressed, transmitted, routed, and received.
+Layers of TCP/IP Model:
+Application Layer – Provides network services to applications (e.g., HTTP, FTP, SMTP).
+
+Transport Layer – Ensures reliable data delivery using TCP (connection-oriented) or UDP (connectionless).
+
+Internet Layer – Handles packet routing using IP addresses (e.g., IPv4, IPv6).
+
+Network Access Layer – Manages physical data transmission over network hardware (e.g., Ethernet, Wi-Fi).
+
+3) Important Protocols
+HTTP/HTTPS (HyperText Transfer Protocol Secure) – Used for web communication; HTTPS is the secure version.
+FTP (File Transfer Protocol) – Used for transferring files between computers over a network.
+DNS (Domain Name System) – Translates domain names to IP addresses.
+TCP (Transmission Control Protocol) – Ensures reliable and ordered delivery of data packets.
+IP (Internet Protocol) – Handles addressing and routing of packets across networks.
+
+4) OSI Model: 7 Layers with Definitions
+Physical Layer – Transmits raw data bits over physical mediums like cables and wireless signals.
+
+Data Link Layer – Ensures reliable data transfer between directly connected devices using MAC addresses.
+
+Network Layer – Handles routing and addressing of data packets using IP addresses.
+
+Transport Layer – Ensures end-to-end communication, reliability, and flow control (TCP/UDP).
+
+Session Layer – Manages and controls communication sessions between applications.
+
+Presentation Layer – Translates, encrypts, and compresses data for the application layer.
+
+Application Layer – Provides network services directly to end-user applications (e.g., HTTP, FTP, SMTP).
+
+
+
+
+
+
+
