@@ -1,0 +1,201 @@
+. What are the types of networks?
+Answer:
+
+LAN (Local Area Network)
+
+MAN (Metropolitan Area Network)
+
+WAN (Wide Area Network)
+
+PAN (Personal Area Network)
+
+VPN (Virtual Private Network)
+
+3. What is the difference between LAN and WAN?
+Feature	LAN	WAN
+Coverage	Small area (e.g., office)	Large area (e.g., internet)
+Speed	High	Slower
+Example	Office network	Internet
+4. What is a network topology?
+Answer: The arrangement of network devices. Examples include Bus, Star, Ring, and Mesh.
+
+5. What is a protocol?
+Answer: A protocol is a set of rules governing network communication. Examples: TCP/IP, HTTP, FTP.
+
+Network Models & Addressing
+6. What is the OSI Model?
+Answer: The OSI Model has 7 layers:
+
+Physical
+
+Data Link
+
+Network
+
+Transport
+
+Session
+
+Presentation
+
+Application
+
+7. What is the TCP/IP Model?
+Answer: It has 4 layers:
+
+Network Interface
+
+Internet
+
+Transport
+
+Application
+
+8. What is the difference between OSI and TCP/IP?
+Feature	OSI Model	TCP/IP Model
+Layers	7	4
+Usage	Conceptual model	Practical implementation
+Protocol Examples	Not specific	Uses TCP, IP, HTTP
+9. What is an IP address?
+Answer: A unique numerical label assigned to each device in a network.
+
+10. What is the difference between IPv4 and IPv6?
+Feature	IPv4	IPv6
+Address Size	32-bit	128-bit
+Example	192.168.1.1	2001:db8::1
+Security	Less secure	More secure
+Data Transmission & Devices
+11. What is MAC Address?
+Answer: A unique identifier assigned to a device's network card.
+
+12. What is subnetting?
+Answer: Dividing a large network into smaller, manageable sub-networks.
+
+13. What is DNS?
+Answer: Domain Name System converts domain names into IP addresses.
+
+14. What is DHCP?
+Answer: Dynamic Host Configuration Protocol assigns IP addresses automatically.
+
+15. What is a Gateway?
+Answer: A device that connects different networks with different protocols.
+
+Networking Devices
+16. What is a Hub?
+Answer: A basic networking device that transmits data to all connected devices.
+
+17. What is a Switch?
+Answer: A device that forwards data based on MAC addresses.
+
+18. What is a Router?
+Answer: A device that routes data between networks using IP addresses.
+
+19. What is a Modem?
+Answer: Converts digital signals into analog signals and vice versa.
+
+20. What is a Repeater?
+Answer: A device that amplifies weak signals over long distances.
+
+Network Security
+21. What is a Firewall?
+Answer: A security system that monitors and controls network traffic.
+
+22. What is VPN?
+Answer: A Virtual Private Network provides a secure connection over the internet.
+
+23. What is NAT?
+Answer: Network Address Translation allows multiple devices to share one public IP address.
+
+24. What is ARP?
+Answer: Address Resolution Protocol translates an IP address into a MAC address.
+
+25. What is ICMP?
+Answer: Internet Control Message Protocol sends error messages and diagnostics.
+
+Transmission & Communication
+26. What is Bandwidth?
+Answer: The maximum data transfer rate in a network.
+
+27. What is Latency?
+Answer: The time taken for data to travel from source to destination.
+
+28. What is Throughput?
+Answer: The actual amount of data successfully transmitted.
+
+29. What is Jitter?
+Answer: Variation in packet delay.
+
+30. What is Ping?
+Answer: A network utility that checks the connectivity between two devices.
+
+Advanced Networking Concepts
+31. What is VoIP?
+Answer: Voice over Internet Protocol enables voice calls over the internet.
+
+32. What is MPLS?
+Answer: Multi-Protocol Label Switching is a routing technique for fast data transfer.
+
+33. What is Load Balancing?
+Answer: Distributes network traffic across multiple servers.
+
+34. What is a Proxy Server?
+Answer: An intermediary server between users and the internet.
+
+35. What is a VLAN?
+Answer: Virtual Local Area Network segments a network logically.
+
+Wireless Networking
+36. What is Wi-Fi?
+Answer: Wireless networking technology that uses radio waves.
+
+37. What is Bluetooth?
+Answer: A short-range wireless technology for device communication.
+
+38. What is SSID?
+Answer: Service Set Identifier is the name of a Wi-Fi network.
+
+39. What is WEP, WPA, and WPA2?
+Answer: Wireless security protocols, with WPA2 being the most secure.
+
+40. What is 5G?
+Answer: The fifth-generation mobile network offering high speed and low latency.
+
+Network Attacks & Prevention
+41. What is Phishing?
+Answer: A cyber-attack that tricks users into revealing sensitive information.
+
+42. What is a DDoS attack?
+Answer: Distributed Denial-of-Service floods a network with traffic.
+
+43. What is Ransomware?
+Answer: A malware that encrypts files and demands ransom.
+
+44. What is Spoofing?
+Answer: Impersonating a trusted entity to steal data.
+
+45. How can we secure a network?
+Answer:
+
+Use firewalls
+
+Strong passwords
+
+Encryption
+
+Regular updates
+
+Networking Tools & Commands
+46. What is Traceroute?
+Answer: A command-line tool that shows the path packets take to reach a destination.
+
+47. What is Netstat?
+Answer: A tool that shows active network connections.
+
+48. What is Wireshark?
+Answer: A network protocol analyzer used for packet capturing.
+
+49. What is an Access Point?
+Answer: A device that connects Wi-Fi-enabled devices to a wired network.
+
+50. What is Port Forwarding?
+Answer: Directing network traffic to a specific device inside a private network.
